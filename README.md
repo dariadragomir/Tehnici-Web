@@ -1,2 +1,2 @@
 # Tehnici-Web
-Proiecte
+Proiect personal
