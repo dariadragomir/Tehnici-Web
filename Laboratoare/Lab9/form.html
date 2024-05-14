@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formular pentru intrarea în Sistemul Solar</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="form.js"></script>
+</head>
+
+<body>
+    <h3>FORMULAR PENTRU INTRAREA ÎN SISTEMUL SOLAR</h3>
+    <div id="container">
+        <form action="/Earth" method="post" target="_self">
+            <fieldset>
+                <legend>Date personale</legend>
+                <label for="nume">Nume complet</label>
+                <input type="text" id="nume" name="nume" min="3" max="30" required><br><br>
+                <label for="id">ID unic</label>
+                <input type="text" id="id" name="id" min="8" max="20" required><br><br>
+                <label for="rasa">Rasă</label>
+                <select id="rasa" name="rasa">
+                    <option selected disabled>--Please choose an option--</option>
+                </select><br><br>
+                <label for="data-nastere">Data nașterii</label>
+                <input type="date" id="data-nastere" min="1800-01-01" max="2024-05-13" required><br><br>
+                <label for="credit">Credit social</label>
+                <input type="range" id="credit" min="0" max="2000" step="50" value="0" required>
+                <span id="credit-value"></span><br><br>
+                <label>Fotografie</label>
+                <input type="file" accept="image/*" required><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="galaxie">Galaxie proveniență</label>
+                <input type="text" id="galaxie" required><br><br>
+                <label for="planeta">Planeta proveniență</label>
+                <input type="text" id="planeta" required><br><br>
+                <label for="planeta">Adresa</label>
+                <textarea id="adresa" rows="5" cols="37" resize="none" required></textarea><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" required><br><br>
+                <label for="telefon">Telefon</label>
+                <input type="tel" id="telefon" pattern="[0-9]{3}-[0-9]{5}-[0-9]{3}" required><br>
+                <output id="output-tel">(Format intergalactic)</output><br><br>
+                <label for="website">Web URL</label>
+                <input type="url" id="website" placeholder="https://example.com" pattern="https://.*.com" required><br><br>
+            </fieldset>
+            <fieldset>
+              <legend>Semnalmente Fizice</legend>
+                  <label for="inaltime">Înălțime (cm)</label>
+                  <input type="number" id="inaltime" min="10" max="300" required><br><br>
+                  <label for="greutate">Greutate (kg)</label>
+                  <input type="number" id="greutate" min="1" max="500" required><br><br>
+                  <label for="membre">Număr de Membre</label>
+                  <input type="number" id="membre" min="1" required><br><br>
+                  <label for="ochi">Număr de Ochi</label>
+                  <input type="number" id="ochi" min="1" required><br><br>
+                  <label for="culoare">Culoare Preferată</label>
+                  <input type="color" id="culoare" onchange="changeBackgroundColor()" value="#ffffff"><br><br>
+            </fieldset>
+            <fieldset>
+                  <legend>Detalii Vizită</legend>
+                  <label for="dataSosirii">Data Sosirii</label>
+                  <input type="date" id="dataSosirii" min="2024-05-13" max="2034-05-13" required><br><br>
+                  <label for="oraSosirii">Ora Estimată a Sosirii</label>
+                  <input type="time" id="oraSosirii" required><br><br>
+                  <label for="tipSedere">Tipul de Ședere</label>
+                  <select id="tipSedere" required>
+                    <option value="temporara" selected>Temporară</option>
+                    <option value="permanentă">Permanentă</option>
+                  </select><br><br>
+                  <label>Scopul Vizitei</label><br>
+                  <input type="checkbox" id="turism" name="scop" value="turism">
+                  <label for="turism">Turism</label><br>
+                  <input type="checkbox" id="afaceri" name="scop" value="afaceri">
+                  <label for="afaceri">Afaceri</label><br>
+                  <input type="checkbox" id="studii" name="scop" value="studii">
+                  <label for="studii">Studii</label><br>
+                  <input type="checkbox" id="invazie" name="scop" value="invazie" checked required>
+                  <label for="invazie">Invazie</label><br><br>
+                  <label for="alteDetalii">Alte Detalii</label><br>
+                  <textarea id="alteDetalii" rows="5" cols="37"></textarea><br><br>
+            </fieldset>
+          <button type="button" onclick="submitForm()">Trimite</button>
+        </form>
+
+        <div id="confirmare" class="confirmation-message" style="display: none;">
+            <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="Trimitere..." class="sending-image">
+            <p>Se trimit datele...</p>
+          </div>
+
+    </div>
+</body>
+
+</html>
