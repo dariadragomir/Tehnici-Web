@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="form.css">
+  <script src="form.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 id="fade">Daria Dragomir</h1>
+    <h3 id="fade1">Computer Science Student</h3>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="poze.html">Photos</a></li>
+        <li class="dropdown">
+          <a href="projects.html" class="dropbtn">Projects</a>
+          <div class="dropdown-content">
+            <a href="projects.html">OOP Project</a>
+            <a href="projects.html">ASC Project</a>
+            <a href="projects.html">LFA Project</a>
+          </div>
+        </li>
+        <li><a href="login.html">Leave me a message</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <form id="form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+      </div>
+      <div class="form-group">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+      </div>
+      <div class="form-group">
+        <label for="range">Urgency:</label>
+        <input type="range" id="range" name="range" min="0" max="100">
+      </div>
+      <div class="form-group">
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" id="hobby1" name="hobbies" value="read">Reading
+        <input type="checkbox" id="hobby2" name="hobbies" value="code">Coding
+        <input type="checkbox" id="hobby3" name="hobbies" value="travel">Travelling
+      </div>
+      <div class="form-group">
+        <label for="interest">Interests:</label>
+        <select id="interests" name="interest">
+          <option value="collab">Collaboration</option>
+          <option value="friend">Hanging out</option>
+          <option value="newfriend">Getting to know each other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <button type="submit" id="butonsub">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
