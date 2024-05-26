@@ -1,2 +1,2 @@
 # Tehnici-Web
-Proiect personal
+Proiect personal realizat folosind HTML & CSS & JavaScript & Node.js & AJAX 
