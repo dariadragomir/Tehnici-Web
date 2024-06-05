@@ -1,0 +1,26 @@
+[
+  {
+    "name": "aa",
+    "email": "a@gmail.com",
+    "age": "12",
+    "birthday": "2024-06-20",
+    "range": "76",
+    "hobbies": [
+      "read"
+    ],
+    "interest": "collab",
+    "message": "1q"
+  },
+  {
+    "name": "aaa",
+    "email": "abc@gmail.com",
+    "age": "12",
+    "birthday": "2024-06-14",
+    "range": "50",
+    "hobbies": [
+      "code"
+    ],
+    "interest": "collab",
+    "message": "asd"
+  }
+]
