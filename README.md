@@ -25,3 +25,4 @@ Proiect personal realizat folosind HTML & CSS & JavaScript & Node.js & AJAX
 - Pagina Login cu Node.js cu cereri AJAX pentru a verifica daca userul se afla in fisierul users.json.
 - Pagina form.html cu inputuri funcționale (input de tip text/range/number/radio/checkbox, select, date) si validarea datelor din formular folosind expresii regulate pentru nume si email.
 - Pagina form.html foloseste cereri get/post pentru preluare date din formular, iar la trimitere datele se salveaza in fisierul raspunsuri.json.
+- Pagina pentru eroarea 404 pentru accesarea unui url invalid
