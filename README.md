@@ -14,4 +14,4 @@ Proiect personal realizat folosind HTML & CSS & JavaScript & Node.js & AJAX
     node server.js
   
 - Site-ul se acceseaza utilizand orice browser, la adresa http://localhost:3000
-- Pentru a vedea formularul de contact, se poate face logarea utilizand user: user1, password: password1. 
+- Pentru a vedea formularul de contact, se poate face logarea utilizand username: user1, password: password1. 
