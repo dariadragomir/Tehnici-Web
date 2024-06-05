@@ -3,7 +3,7 @@ Proiect personal realizat folosind HTML & CSS & JavaScript & Node.js & AJAX
 
 # Instalare
 - Instalarea Node.js pentru rularea serverului: https://nodejs.org/en/download/prebuilt-installer 
-- Utilizand orice IDE care are terminal (de exemplu WebStorm), se instaleaza urmatoarele dependențe
+- Utilizand orice IDE care are terminal (de exemplu WebStorm https://www.jetbrains.com/webstorm/download/#section=windows ), se instaleaza urmatoarele dependențe
 
     npm i express
 
