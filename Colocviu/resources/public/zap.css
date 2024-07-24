@@ -1,0 +1,96 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    display: flex;
+}
+.margine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+
+.erori{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.eroare1{
+    height: 100%;
+    background-color: white;
+}
+.eroare2{
+    height: 100%;
+    background-color: yellow;
+}
+.eroare3{
+    height: 100%;
+    background-color: green;
+}
+.eroare4{
+    height: 100%;
+    background-color: cyan;
+}
+.eroare5{
+    height: 100%;
+    background-color: purple;
+}
+.eroare6{
+    height: 100%;
+    background-color: red;
+}
+.eroare7{
+    height: 100%;
+    background-color: blue;
+}
+.erori div{
+    flex: 1;
+}
+
+.butoane{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.butoane div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: white;
+}
+
+.butoane div:nth-child(1){
+    width: 50px;
+    height: 50px;
+}
+.butoane div:nth-child(2){
+    width: 40px;
+    height: 40px;
+}
+.butoane div:nth-child(3){
+    width: 20px;
+    height: 20px;
+}
